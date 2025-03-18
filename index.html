@@ -2,21 +2,26 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+        </style>
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
     <title>Search</title>
 </head>
 <body>
-    <div>
+    <div id="container">
         <nav>
-            <div>
+            <div id="navigation">
                 <a href="assets/pages/image_search.html">Images</a>
                 <a href="assets/pages/advanced_search.html">Advanced</a>
             </div>
         </nav>
-        <div>
+        <div id="page-title">
             <h1>Search</h1>
         </div>
-        <div>
-            <form action="https://google.com/search">
+        <div id="search-bar">
+            <form action="https://google.com/search" method="get">
                 <input type="text"  name="q">
                 <input type="submit" value="Google Search">
                 <input type="submit" value="I'm feeling lucky">
