@@ -107,9 +107,24 @@ form{
     background-color: none;
 }
 
+/*search form buttons*/
+#input-buttons{
+    display: flex;
+    justify-content: center;
+    padding-top: 18px;
+    gap: 4px;
+}
 
-
-
-
-
+input[type="submit"]{
+    font-size: 14px;
+    color: #3c4043;
+    border-radius: 4px;
+    line-height: 27px;
+    min-width: 54px;
+    height: 36px;
+    padding: 0px 16px;
+    margin: 11px 4px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+}
 
