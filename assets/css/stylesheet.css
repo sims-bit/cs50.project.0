@@ -31,3 +31,19 @@ nav{
     margin-right: 9px;
 }
 
+/*index page logo*/
+
+#page-title{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#logo{
+    height: 92px;
+}
+
+
+
+
