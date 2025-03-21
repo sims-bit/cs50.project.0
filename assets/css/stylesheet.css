@@ -147,19 +147,45 @@ footer a {
    
 }
 
+
 /*Advanced Search Page Styles*/
-#advanced-title{}
+#advanced-logo{
+    height: 24px;
+    width: 74px;
+}
+
+#adv-logo-d{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+#advanced-title{
+    margin: 40px 2% 0 45px;
+
+}
 
 #advanced-title h1{
-    font-size: 17px;
+    color: #EA4333;
+    font-size: 20px;
+    margin: 25px 0px 35px;
 }
+
 #adv-search{
     border: 2px solid;
+    margin: 40px 2% 0 45px;
+}
+
+#adv-form-title{
+    color: #333;
 }
 
 #advanced-form {
     border: 2px solid;
     display: block;
+    color: #333;
+    width: 50%;
 }
 
 #enter{
@@ -170,6 +196,11 @@ footer a {
 #advanced-form input[type="text"]{
     width: 100%;
     padding: 1px 8px;
+    border: 1px solid #80808075;
+    font-size: 13px;
+    height: 25px;
+    border-radius: 1px;
+
 }
 
 #adv-submit{
@@ -179,10 +210,7 @@ footer a {
 
 
 
-
-
-
-
-
-
-
+/*image search*/
+#image-logo{
+    height: 126px;
+}
