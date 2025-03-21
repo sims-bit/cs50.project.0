@@ -1,27 +1,41 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/variables.scss">
+    <link rel="stylesheet" href="../css/stylesheet.css">
     <title>Image Search</title>
 </head>
+
 <body>
-    <div>
+    <div id="container">
         <nav>
-            <div>
-                <a href="../../index.html">Search</a>
-                <a href="./advanced_search.html"></a>
+            <div id="navigation">
+                <a class="navbar-item" href="../../index.html">Search</a>
+                <a class="navbar-item" href="./advanced_search.html">Advanced</a>
             </div>
         </nav>
         <div>
             <h1>Search Images</h1>
         </div>
-        <div>
-            <form action="https://www.google.com/imghp?hl=en&tab=wi/search">
-                <input type="text"  name="q">
-                <input type="submit" value="Google Image Search">
-            </form>
+        <div id="center">
+            <div id="search-form">
+                <div id="search-container">
+                    <div id="search-bar">
+                        <a><img id="magnifer" src="../media/magnifying-glass.png"></a>
+                        <form action="https://www.google.com/imghp?hl=en&authuser=0&ogbl" method="get">
+                            <input id="q" type="text" name="q">
+                    </div>
+                </div>
+                <div id="input-buttons">
+                    <input type="submit" value="Image Search">
+                </div>
+                </form>
+            </div>
         </div>
     </div>
 </body>
+
 </html>
