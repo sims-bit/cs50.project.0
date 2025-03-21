@@ -147,4 +147,42 @@ footer a {
    
 }
 
+/*Advanced Search Page Styles*/
+#advanced-title{}
+
+#advanced-title h1{
+    font-size: 17px;
+}
+#adv-search{
+    border: 2px solid;
+}
+
+#advanced-form {
+    border: 2px solid;
+    display: block;
+}
+
+#enter{
+    border: 2px solid red;
+    width: 100%;
+}
+
+#advanced-form input[type="text"]{
+    width: 100%;
+    padding: 1px 8px;
+}
+
+#adv-submit{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
 
