@@ -12,3 +12,22 @@ body{
     flex-direction: column;
 }
 
+/*Navigation bar*/
+#navigation{
+    display: flex;
+    border: 2px solid purple;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 6px;
+}
+
+nav{
+    margin-bottom: 60px;
+}
+
+.navbar-item{
+    font-size: 12px;
+    text-decoration: none;
+    margin-right: 9px;
+}
+
