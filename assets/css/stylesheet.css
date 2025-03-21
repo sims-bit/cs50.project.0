@@ -128,3 +128,23 @@ input[type="submit"]{
     border: 1px solid #f8f9fa;
 }
 
+/*Pages Footer*/
+footer{
+    border: 3px solid orange;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+#foot{
+   
+}
+
+
