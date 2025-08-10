@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/stylesheet.css">
     <title>Advanced Search</title>
 </head>
+
 <body>
     <nav>
         <div id="navigation">
@@ -24,38 +26,21 @@
             <span id="adv-form-title">Find pages with...</span>
         </div>
         <form id="advanced-form" action="get">
-            <div id="enter">
-                <div>
-                    <div>
-                        <label>all these words:</label>
-                    </div>
-                    <div>
-                        <input type="text"> 
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <label>this exact word or phrase:</label>
-                    </div>
-                    <div>
-                        <input type="text">
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <label>any of these words:</label>
-                    </div>
-                    <div>
-                        <input type="text">
-                    </div>
-                </div>
-                <div>
-                    <div><label>none of these words:</label>
-                    </div>
-                    <div>
-                        <input type="text">
-                    </div>
-                </div>
+            <div class="form-items">
+                <label>all these words:</label>
+                <input type="text">
+            </div>
+            <div class="form-items">
+                <label>this exact word or phrase:</label>
+                <input type="text">
+            </div>
+            <div class="form-items">
+                <label>any of these words:</label>
+                <input type="text">
+            </div>
+            <div class="form-items">
+                <label>none of these words:</label>
+                <input type="text">
             </div>
             <div id="adv-submit">
                 <input type="submit" value="Advanced Search">
@@ -63,4 +48,5 @@
         </form>
     </div>
 </body>
+
 </html>

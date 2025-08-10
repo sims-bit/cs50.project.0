@@ -99,6 +99,7 @@ form{
     flex: auto;
     max-width: 443.400px;
     min-width: 219.400px;
+    width: 400px;
     height: 27px;
     display: flex;
     margin-top: 7px;
@@ -193,6 +194,13 @@ footer a {
     display: block;
     color: #333;
     width: 50%;
+    align-items: center;
+}
+
+.form-items{
+    display: flex;
+    padding: 2px;
+    padding-bottom: 10px;
 }
 
 #enter{
@@ -201,18 +209,23 @@ footer a {
 }
 
 #advanced-form input[type="text"]{
-    width: 100%;
     padding: 1px 8px;
     border: 1px solid #80808075;
     font-size: 13px;
     height: 25px;
     border-radius: 1px;
+    width: 70%;
+}
 
+#advanced-form label{
+    padding-right: 10px;
+    width: 36%;
 }
 
 #adv-submit{
     display: flex;
-    justify-content: center;
+    justify-content: right;
+    padding-right: 10px;
 }
 
 
